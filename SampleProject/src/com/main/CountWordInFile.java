@@ -28,7 +28,7 @@ public class CountWordInFile {
 			
 			e.printStackTrace();
 		}
-		System.out.println(wordCount);
+		System.out.println("Total count of words in " + file + " is: " + wordCount);
 	}
 
 }
