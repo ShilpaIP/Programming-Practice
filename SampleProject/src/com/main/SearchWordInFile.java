@@ -17,6 +17,8 @@ public class SearchWordInFile {
 					count++;
 			}
 		}
+		br.close();
+		
 		return count;
 	}
 	
@@ -33,8 +35,9 @@ public class SearchWordInFile {
 		} catch (IOException e) {		
 			e.printStackTrace();
 		}
-		System.out.println("Count of word" + " '"+ wordToBeSearched + "'" + " is: " + searchWrdCount);
-		
+		finally{
+			System.out.println("Count of word" + " '"+ wordToBeSearched + "'" + " is: " + searchWrdCount);
+		}
 	}
 	
 }
