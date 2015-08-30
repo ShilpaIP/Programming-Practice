@@ -15,6 +15,8 @@ public class CountWordInFile {
 				count++;
 			}			
 		}
+		br.close();
+		
 		return count;
 	}
 	
