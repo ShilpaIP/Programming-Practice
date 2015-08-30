@@ -1,3 +1,5 @@
 This is programming practice text document.
 Practicing Java coding questions.
 Practice makes it perfect.
+Coding is fun and challenging.
+Java is an object-oriented language.
