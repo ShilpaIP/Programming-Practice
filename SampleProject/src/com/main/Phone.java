@@ -1,5 +1,10 @@
 package com.main;
 
+/* Immutable class Phone
+ * Immutable classes are those which are defined by FINAL keyword and cannot be extended 
+ * Also, the data members/variables of the class are also final
+ */
+
 public final class Phone {
 	
 	private final String model;
